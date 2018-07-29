@@ -8,3 +8,4 @@ def home(request):
     jobs = Job.objects
     personals = Personal.objects
     return render(request, 'job/home.html', {'jobs': jobs, 'Personal': personals})
+    print(personals.__dict__)
