@@ -7,7 +7,7 @@
     <meta name="author" content="">
 
     <title>Vimal's Portfolio</title>
-
+c
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
           integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -54,7 +54,7 @@
                 <p class="lead text-muted"> {{ personal.summary }}</p>
                 <p>
                     <a href="mailto:{{ personal.email_id }}" class="btn btn-primary my-2">Mail Me</a>
-                    <a href="/media/{{ personal.resume }}" class="btn btn-secondary my-2">Download Resume</a>
+                    <a href="/media/{{ personal.resume.url }}" class="btn btn-secondary my-2">Download Resume</a>
                     <a href="#" class="btn btn-primary my-2" data-toggle="modal"
                        data-target="#modal_all">More</a>
                 </p>

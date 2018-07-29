@@ -22,4 +22,4 @@ import job.views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', job.views.home, name="home")
-] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+]
